@@ -1,0 +1,61 @@
+# Python
+*.pyc
+*.pyo
+__pycache__/
+*.pyd
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv/
+
+# Environment Variables
+.env
+
+# VSCode settings
+.vscode/
+
+# MacOS system files
+.DS_Store
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# FAISS vector store files (if you want to avoid committing big vector index files)
+data/vectorstore/*
+
+# Log files
+*.log
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+
+# Pytest cache
+.pytest_cache/
+
+# Temporary files
+*.bak
+*.swp
+*.tmp
+
+# Model checkpoints or intermediate artifacts (optional safety)
+checkpoints/
+models/
+output/
+artifacts/
+
+# Ignore system wide archives if generated
+*.zip
+*.tar.gz
+*.tar
+*.rar
+
+# Ignore database dumps if any
+*.db
+*.sqlite3
+*.sql
+
+# Ignore IDE folders (optional for PyCharm, JetBrains)
+.idea/
